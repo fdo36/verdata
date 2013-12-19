@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../../css/verdata.css" rel="stylesheet" media="screen">
+    <script src="../../js/jquery-2.0.3.min.js"></script>
+    <script src="../../js/verdata.js"></script>
+    <script src="js/script.js"></script>
+	
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse"
+                  data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="../../index.html">VerData</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="../../index.html">Home</a></li>
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <h1>Grafo Delitos 2012</h1>
+
+      <p>Grafo que muestra la informacion de los distintos delitos en Curico durante el 2012.</p>
+      <div class="holder">
+	  <table id="named-graph-list" class="table">
+        <thead>
+			<tr>
+            <th>Region</th>
+			<th>Mes</th>
+			<th>Unidad policial</th>
+			<th>Parte</th>
+			<th>Fecha inicio</th>
+			<th>Codigo</th>
+			<th>Nombre tribunal</th>
+			<th>Delito</th>
+			<th>Modus operandi</th>
+			<th>Fecha delito</th>
+			<th>Bienes afectados</th>
+			<th>Area</th>
+			<th>Lugar</th>			
+          </tr>
+		</thead>
+		<tbody id="data">
+        </tbody>
+      </table>
+	  </div>
+    </div>
+
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
